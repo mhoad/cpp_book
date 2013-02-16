@@ -68,7 +68,7 @@ int main()
         case 'C':
             cout << "Account Number: " << accountNumber << endl;
             cout << fixed << showpoint << setprecision(2);
-            cout << "Account Type: Savings" << endl;
+            cout << "Account Type: Checking" << endl;
             cout << "Minimum Balance: $" << minimumBalance << endl;
             cout << "Current Balance: $" << currentBalance << endl;
             
