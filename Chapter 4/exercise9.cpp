@@ -1,6 +1,6 @@
 /*****************************************************************************
  C++ Programming - From Problem Analysis to Program Design 5th Edition
- Chapter 4 - Exercise 8
+ Chapter 4 - Exercise 9
  markdhoad@gmail.com
  
  Write a program that mimics a calculator. The program should take as input two integers and the
@@ -40,6 +40,7 @@ int main()
                 return 1;
             }
             cout << numerator / denominator << endl;
+            break;
         default:
             cout << "There was an error with your input" << endl;
             return 1;
