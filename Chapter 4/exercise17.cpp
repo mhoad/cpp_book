@@ -1,6 +1,6 @@
 /*****************************************************************************
  C++ Programming - From Problem Analysis to Program Design 5th Edition
- Chapter 4 - Exercise 15
+ Chapter 4 - Exercise 17
  markdhoad@gmail.com
  
  You have several pictures of different sizes that you would like to frame. 
