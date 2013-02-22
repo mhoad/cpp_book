@@ -12,8 +12,7 @@
  
  If the user enters more than seven letters, then process only the first seven letters. 
  Also output the – (hyphen) after the third digit. Allow the user to use both uppercase 
- and lowercase letters as well as spaces between words. Moreover, your program should 
- process as many telephone numbers as the user wants.
+ and lowercase letters as well as spaces between words. 
  *****************************************************************************/
 
 
@@ -26,9 +25,7 @@ int main()
     char letter;
     int counter = 0;
     
-    
     cout << "Program to convert letters to their corresponding telephone digits" << endl;
-    cout << "To stop the program press #" << endl;
     
     while (cin.get(letter) && counter < 7 ) {
         
