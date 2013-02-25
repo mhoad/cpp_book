@@ -1,0 +1,2 @@
+Average male UAI: 73.77
+Average female UAI: 66.48
