@@ -18,7 +18,7 @@ int smallestIndex(int numberArray[], int arraySize);
 int main()
 {
     const int MAX_ARRAY_SIZE = 10;
-    int testArray[MAX_ARRAY_SIZE] {0, 18, 43, 6, 2, 18, 12, 22, 2, 1};
+    int testArray[MAX_ARRAY_SIZE] {10, 18, 43, 1, 2, 18, 1, 22, 2, 91};
     int smallestPosition = smallestIndex(testArray, MAX_ARRAY_SIZE);
     cout << "The smallest index was position: " << smallestPosition;
     cout << " with a value of: " << testArray[smallestPosition];
@@ -28,8 +28,8 @@ int main()
 int smallestIndex(int numberArray[], int arraySize) {
     int smallest = 0;
     for (int i = 0; i < arraySize-1; i++) {
-        if (numberArray[i] > numberArray[i+1])
-            smallest = i+1;
+        if (numberArray[i] < numberArray[smallest])
+            smallest = i;
     }
     return smallest;
 }
