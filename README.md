@@ -1,8 +1,10 @@
-C++ Programming - From Problem Analysis to Program Design 5th Edition
+C++ Programming 
 ========
+From Problem Analysis to Program Design 5th Edition
+-------------
 
 This repo is a collection of answers to the programming challenges and exercises outlined in 
-C++ Programming - From Problem Analysis to Program Design 5th Edition by D.S Malik
+[C++ Programming - From Problem Analysis to Program Design 5th Edition](http://www.amazon.com/gp/product/1133626386/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1133626386&linkCode=as2&tag=thegoemypay-20) by D.S Malik
 
 This is probably the single most verbose programming text book that I have ever seen with 
 hundreds of different exercises that force the student to learn and re-learn concepts until
