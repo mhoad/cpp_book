@@ -3,28 +3,9 @@
  Chapter 2 - Exercise 4
  markdhoad@gmail.com
  
- Consider the following C++ program in which the statements are in the incorrect order. 
- Rearrange the statements so that it prompts the user to input the length and 
- width of a rectangle and output the area and perimeter of the rectangle.
+Repeat Exercise 3 by declaring num1, num2, and num3, and average of type double. 
+Store 75.35 into num1, -35.56 into num2, and 15.76 into num3.
 
- #include <iostream> {
-  int main()
-    cout << "Enter the length: ";
-    cin >> length;
-    cout << endl;
-    int length;
-    area = length * width; 
-    return 0;
-    int width;
-    cin>> width;
-    cout << "Enter the width: "
-    cout << endl;
-    cout << "Area = " << area << endl;
-    cout << "Perimeter = " << perimeter << endl;
-    int area;
-    using namespace std; 
-    int perimeter;
-}
 
 *****************************************************************************/
 
@@ -34,22 +15,18 @@ using namespace std;
 
 int main()
 {
-  int length;
-  int width;
-  int perimeter;
-  int area;
+  double num1, num2, num3;
   
-  cout << "Enter the length: ";
-  cin >> length;
+  num1 = 75.35;
+  num2 = -35.56;
+  num3 = 15.76;
 
-  cout << "Enter the width: ";
-  cin>> width;
+  double average = (num1 + num2 + num3) / 3;
 
-  area = length * width; 
-  perimeter = (length * 2) + (width * 2);
-
-  cout << "Area = " << area << endl;
-  cout << "Perimeter = " << perimeter << endl;
+  cout << "Num 1 = " << num1 << endl;
+  cout << "Num 2 = " << num2 << endl;
+  cout << "Num 3 = " << num3 << endl;
+  cout << "Average = " << average << endl;
   
   return 0;
 }
