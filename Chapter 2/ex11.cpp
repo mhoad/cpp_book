@@ -20,12 +20,24 @@ using namespace std;
 int main()
 {
     double test1, test2, test3, test4, test5;
+    int int1, int2, int3, int4, int5;
     
     cout << "Please enter 5 decimal numbers: \n";
     cin >> test1 >> test2 >> test3 >> test4 >> test5;
-    double total = test1 + test2 + test3 + test4 + test5;
+    cout << test1 << " " << test2 << " " << test3 << " " << test4 << " " << test5 << endl;
     
-    cout << "The total of all the numbers is: " << static_cast<int>(total) << endl;
+    int1 = static_cast<int>(test1);
+    int2 = static_cast<int>(test2);
+    int3 = static_cast<int>(test3);
+    int4 = static_cast<int>(test4);
+    int5 = static_cast<int>(test5);
+    
+    
+    int total = int1 + int2 + int3 + int4 + int5;
+    double average = (int1 + int2 + int3 + int4 + int5) / 5;
+    
+    cout << "The total of all the numbers is: " << total << endl;
+    cout << "The average of all the numbers is: " << average << endl;
     
     return 0;
 }
