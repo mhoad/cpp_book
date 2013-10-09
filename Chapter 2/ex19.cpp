@@ -1,6 +1,6 @@
 /*****************************************************************************
  C++ Programming - From Problem Analysis to Program Design 6th Edition
- Chapter 2 - Exercise 18
+ Chapter 2 - Exercise 19
  markdhoad@gmail.com
  
  Redo Programming Exercise 18 so that the user can also input the cost of 
