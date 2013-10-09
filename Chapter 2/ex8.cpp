@@ -1,7 +1,7 @@
 
 /*****************************************************************************
  C++ Programming - From Problem Analysis to Program Design 5th Edition
- Chapter 2 - Exercise 7
+ Chapter 2 - Exercise 8
  markdhoad@gmail.com
  
  Consider the following program segment:
