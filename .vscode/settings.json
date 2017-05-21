@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "locale": "cpp",
+    "iostream": "cpp",
+    "__locale": "cpp",
+    "string": "cpp",
+    "iomanip": "cpp"
+  }
+}

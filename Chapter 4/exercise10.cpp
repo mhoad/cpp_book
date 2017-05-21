@@ -19,7 +19,7 @@ int main()
     
     cout << "Enter your calculation: ";
     cin >> numerator >> operation >> denominator;
-    
+
     cout << fixed << showpoint << setprecision(2);
     
     switch (operation) {
