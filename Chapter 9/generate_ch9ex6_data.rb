@@ -8,7 +8,7 @@ File.open("ch9ex6.txt", 'w') do |file|
   end
 
 # Ensure you create data in the format of: ABC54301 TFTFTFTT TFTFTFFTTFT
-  10.times do
+  50.times do
     file.write("\nABC#{rand(10000..60000)} ")
     20.times do
       file.write("#{["T", "F", " "].sample}")

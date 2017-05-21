@@ -28,7 +28,7 @@
 using namespace std;
 
 const int NUMBER_OF_QUESTIONS = 20;
-const int NUMBER_OF_STUDENTS = 10;
+const int NUMBER_OF_STUDENTS = 50;
 
 void readFile(ifstream& inFile);
 void markTest(char studentAnswers[][NUMBER_OF_QUESTIONS], string studentIDs[], char correctAnswers[]);
@@ -98,7 +98,7 @@ char assignGrade(int score) {
 }
 
 void readFile(ifstream& inFile) {
-    inFile.open("/Users/mark/Code/cpp/Malik Book/Chapter 9/ch9ex6.txt");
+    inFile.open("/Users/Mark/Code/C++/cpp_book/Chapter 9/ch9ex6.txt");
     if (!inFile){
         cout << "There was an error opening the input file" << endl;
         exit(1);
