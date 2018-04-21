@@ -1,5 +1,5 @@
 /*****************************************************************************
- C++ Programming - From Problem Analysis to Program Design 5th Edition
+ C++ Programming - From Problem Analysis to Program Design 3rd Edition
  Chapter 6 - Exercise 4
  markdhoad@gmail.com
  
